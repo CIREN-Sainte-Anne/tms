@@ -4,6 +4,7 @@
 import sys
 
 #input arguments:
+
 if len( sys.argv ) != 4 or sys.argv[1] in ( '-h', '--help' ):
   print 'usage:', sys.argv[0], '<input x coordinate> <input y coordinate> <input z coordinate>'
   print 'A partir des coordonnees dans coordonnees dans Anatomist (dans le nifti genere par MRIConvert)'
